@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def project_list(request):
     return render(request, 'projects/index.html')
+
+def all_projects(request):
+    return render(request, 'projects/index.html')
