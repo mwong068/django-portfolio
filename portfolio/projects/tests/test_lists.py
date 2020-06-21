@@ -15,3 +15,9 @@ def test_constructor():
 #   assert len(project) == 1
 #   project.push(5)
 #   assert len(project) == 2
+
+def test_pop(project):
+  stack.push('hello')
+  stack.push('goodbye')
+  assert stack.pop() == "goodbye"
+  assert stack.pop() == "hello"
